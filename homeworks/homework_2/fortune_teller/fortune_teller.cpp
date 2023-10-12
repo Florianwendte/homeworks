@@ -51,10 +51,10 @@ int main()
 
     // Determining the variable noun
     //Map indicates correspondance of birth to the noun
-    const map<string, string> map_for_noun = {{"'spring'", "STL guru"},
-                                              {"'summer'", "C++ expert"},
-                                              {"'autumn'", "coding beast"},
-                                              {"'winter'", "software desgin hero"}};
+    const map<string, string> map_for_noun = {{"spring", "STL guru"},
+                                              {"summer", "C++ expert"},
+                                              {"autumn", "coding beast"},
+                                              {"winter", "software desgin hero"}};
     
     noun = map_for_noun.at(fortune_teller_birth); // Noun for final sentence.
 
