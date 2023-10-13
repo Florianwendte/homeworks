@@ -29,14 +29,14 @@ int main()
     string fortune_teller_another_adjective{}; // user enters second adjevtice
 
     cout << "Welcome to the fortune teller program!" << std::endl;
-    cout << "Please enter your name: " << std::endl;
+    cout << "Please enter your name:" << std::endl;
     std::cin >> fortune_teller_name;
-    cout << "Plese enter the time of year when you were born: " << std::endl;
-    cout << "(Pick from 'spring', 'summer', 'autumn', 'winter')" << std::endl;
+    cout << "Plese enter the time of year when you were born:" << std::endl;
+    cout << "(pick from 'spring', 'summer', 'autumn', 'winter')" << std::endl;
     cin >> fortune_teller_birth;
-    cout << "Please enter an adjective: " << endl;
+    cout << "Please enter an adjective:" << endl;
     cin >> fortune_teller_adjective;
-    cout << "Please enter another adjective" << endl;
+    cout << "Please enter another adjective:" << endl;
     cin >> fortune_teller_another_adjective;
 
     // Determining the length of the name and variable name
@@ -67,6 +67,8 @@ int main()
     ending = array_for_ending.at(index_ending);
 
     //Create final sentence
+
+    cout << "Here is your description:" << std::endl;
     cout << name + ", the "s +  adjective + " " + noun + " that "s + ending;
     return 0;
 }
