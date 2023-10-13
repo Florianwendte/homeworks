@@ -8,11 +8,11 @@ int main() {
   std::cout << "Welcome to the GUESSING GAME!"
             << std::endl; // Welcome message to the user
   std::cout << "I will generate a number and you will guess it!" << std::endl;
-  std::cout << "Please provide the smallest number: " << std::endl;
+  std::cout << "Please provide the smallest number:" << std::endl;
   int smallest_number{}; // Smallest number initially empty
   std::cin >>
       smallest_number; // Userinput for smallest number stores in the variable
-  std::cout << "Please provide the biggest number: " << std::endl;
+  std::cout << "Please provide the biggest number:" << std::endl;
   int biggest_number{}; // Biggest number initially empty
   std::cin >> biggest_number;
 
@@ -25,6 +25,7 @@ int main() {
       distribution(random_engine); // This is the generated random number
 
   std::cout << "I've generated a number. Try to guess it!" << std::endl;
+  std::cout << "Please provide the next guess:" << std::endl;
   int guessed_number{}; // guessed number initially empty
   std::cin >> guessed_number;
 

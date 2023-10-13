@@ -31,7 +31,7 @@ int main()
     cout << "Welcome to the fortune teller program!" << std::endl;
     cout << "Please enter your name:" << std::endl;
     std::cin >> fortune_teller_name;
-    cout << "Plese enter the time of year when you were born:" << std::endl;
+    cout << "Please enter the time of year when you were born:" << std::endl;
     cout << "(pick from 'spring', 'summer', 'autumn', 'winter')" << std::endl;
     cin >> fortune_teller_birth;
     cout << "Please enter an adjective:" << endl;
